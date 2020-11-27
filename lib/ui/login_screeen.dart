@@ -102,7 +102,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
                       ),
                     ),
-                    if(passEmpty==true)
+                    if(phoneEmpty==true)
                       Text("من فضلك ادخل رقم الجوال",style: Theme.of(context).textTheme.headline4,),
                     Padding(padding: EdgeInsets.only(top: 20)),
                     SizedBox(
